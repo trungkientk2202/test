@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.header .header-item{
+    width: 100%;
+    height: 46px;
+    background-color: #000;
+}
+
+.header .header-item .item{
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.header .header-item a{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header .header-item a:hover{
+        background-color: #ccc;
+        color: #000 ;
+}
+
+
+
+.main{
+    width: 100%;
+}
+
+.main .home .img{
+    width: 100%;
+}
+
+.main .home .info{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: -128px;
+    
+}
+
+
+.band{
+    padding-top: 32px;
+}
+.form {
+    text-align: center;
+    margin: 0 154px;
+    padding: 32px 16px;
+}
+
+.form .name{
+    text-transform: uppercase;
+    
+}
+
+.form .title{
+    font-style: italic;
+    opacity: 0.8;
+
+}
+
+.band .form .content{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+form .column{
+    width: 100%;
+
+}
+
+ .third{
+    width: 33%;
+    display: inline-block;
+}
+
+.band .avt .img-member{
+    width: 60%;
+}
+
+
+.tour{
+    background-color: #000;
+    color: #fff;
+}
+
+.plan{
+    background-color: #fff;
+    color: #000;
+}
+.plan .align-left{
+    text-align: left;
+    padding-left: 16px;
+    border-bottom-style: ridge;
+    line-height: 32px;
+    opacity: 0.8;
+}
+
+.plan .sold-out{
+    color: #fff;
+    background-color: red;
+    padding: 4px 8px;
+}
+
+.plan .quantity{
+    float: right;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 4px 24px;
+    line-height: 24px;
+    padding: 0px 8px;
+    
+}
+
+.tour .places{
+    margin-top: 64px;
+}
+
+.tour .places .place{
+    background-color: #fff;
+    color: #000;    
+    text-align: left;
+    
+}
+.tour .places .img-place{
+    width: 100%;
+}
+
+.tour .places .range{
+    padding-left: 8px;
+}
+
+.tour .place h4{
+    opacity: 0.6;
+}
+
+.tour .place .buy-ticket{
+    margin-bottom: 24px;
+    padding: 8px 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.tour .place .buy-ticket:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.second{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.contact .second .icon{
+    padding: 0 12px;
+    
+}
+
+.contact .full{
+    width: 100%;
+    margin: 4px 4px;
+}
+
+.contact .send{
+    float: right;
+    margin: 12px 12px;
+    padding: 4px 12px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact .send:hover{
+    background-color: #ccc;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.footer .social{
+    padding: 4px 4px;
+    opacity: 0.8;
+}
+
+.footer .social:hover{
+    opacity: 0.6;
+}
+
